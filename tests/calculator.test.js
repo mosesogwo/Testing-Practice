@@ -1,3 +1,5 @@
+/* eslint-env browser */
+
 import calculator from '../src/calculator';
 
 test('add (10, 5) = 15', () => {

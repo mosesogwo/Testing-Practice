@@ -1,3 +1,5 @@
+/* eslint-env browser */
+
 import caesarCipher from '../src/caesar_cipher';
 
 test('shifting 1', () => {
