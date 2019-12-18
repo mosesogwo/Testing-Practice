@@ -1,6 +1,6 @@
 # Testing-Practice
 
-> Testing Practive uses jest as its test suite to test the functions inside. You can find the functions inside the tests folder.
+> Testing Practice uses jest as its test suite to test the functions inside. You can find the functions inside the src folder and the test files inside the tests folder.
 
 
 ## Built With
