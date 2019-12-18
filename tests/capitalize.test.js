@@ -1,4 +1,4 @@
-/* eslint-env browser */
+/* eslint-env jest */
 
 import capitalize from '../src/capitalize';
 

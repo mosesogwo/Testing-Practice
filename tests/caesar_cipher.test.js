@@ -1,4 +1,4 @@
-/* eslint-env browser */
+/* eslint-env jest */
 
 import caesarCipher from '../src/caesar_cipher';
 
