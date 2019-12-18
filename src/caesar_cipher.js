@@ -1,17 +1,15 @@
 const caesarCipher = (plaintext, key) => {
   let ciphered = '';
-  let letters = /^[A-Za-z]+$/;
+  const letters = /^[A-Za-z]+$/;
 
-  for (let i = 0; i < plaintext.length; i++) {
+  for (let i = 0; i < plaintext.length; i += 1) {
     if (plaintext.charAt(i).match(letters)) {
       if (plaintext.charAt(i) === plaintext.charAt(i).toLowerCase()) {
         ciphered += String.fromCharCode(((plaintext.charCodeAt(i) + key - 97) % 26) + 97);
-      }
-      else {
+      } else {
         ciphered += String.fromCharCode(((plaintext.charCodeAt(i) + key - 65) % 26) + 65);
       }
-    }
-    else {
+    } else {
       ciphered += plaintext.charAt(i);
     }
   }
